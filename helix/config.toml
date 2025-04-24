@@ -1,0 +1,34 @@
+theme = "monokai_soda"
+[editor]
+line-number = "relative"
+mouse = true
+auto-save = true
+middle-click-paste = true
+color-modes = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode","file-name","read-only-indicator"]
+right = ["file-type","position"]
+separator = "│"
+mode.normal = "meow :3"
+mode.insert = "meow-meow :3"
+mode.select = "meeeeeeeeeeeow :3"
+
+[keys.normal]
+del = ["extend_line_below", "delete_selection"]
+
+[keys.insert]
+# "C-h" = ["normal_mode", "move_prev_word_start", "select_mode", "move_next_word_end", "delete_selection", "insert_mode"]
+"C-h" = ["select_mode", "move_prev_word_start", "delete_selection", "insert_mode"] # This line is purely because I use a multiplexer
+# WezTerm registers C-Backspace as C-h.
