@@ -29,6 +29,8 @@ config.colors = {
 
 config.default_prog = { "powershell.exe", "-NoLogo" }
 
+config.enable_wayland = false
+
 return config;
 
 -- if for SOME REASON you have decided to get a nVidia GPU, make sure to go in teh control panel and add the app in the "performance whatever". nVidia and win10 is a curse.
