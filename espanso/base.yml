@@ -1,0 +1,1168 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: #https://espanso.org/docs/
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+# Simple text replacement
+
+# NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+# But matches can also be dynamic:
+# And much more! For more information, visit the docs: https://espanso.org/docs/
+matches:
+    # Acid	
+  - trigger: ":acid"
+    replace: "⊂(◉‿◉)つ"
+
+  # Afraid
+  - trigger: ":afraid"
+    replace: "(ㆆ _ ㆆ)"
+
+  # Alpha
+  - trigger: ":alpha"
+    replace: "α"
+
+  # Angry
+  - trigger: ":angry"
+    replace: "•`_´•"
+
+  # Arrowhead
+  - trigger: ":arrowhead"
+    replace: "⤜(ⱺ ʖ̯ⱺ)⤏"
+
+  # Apple
+  - trigger: ":apple"
+    replace: ""
+
+  # Ass/Butt
+  - trigger: ":ass"
+    replace: "(‿|‿)"
+  - trigger: ":butt"
+    replace: "(‿|‿)"
+
+  # Awkward
+  - trigger: ":awkward"
+    replace: "•͡˘㇁•͡˘"
+
+  # Bat
+  - trigger: ":bat"
+    replace: "/|\\ ^._.^ /|\\"
+
+  # Bear/Koala
+  - trigger: ":bear"
+    replace: "ʕ·͡ᴥ·ʔ﻿"
+  - trigger: ":koala"
+    replace: "ʕ·͡ᴥ·ʔ﻿"
+
+  # Bearflip
+  - trigger: ":bearflip"
+    replace: "ʕノ•ᴥ•ʔノ ︵ ┻━┻"
+
+  # Bearhug
+  - trigger: ":bearhug"
+    replace: "ʕっ•ᴥ•ʔっ"
+
+  # Because/Since
+  - trigger: ":because"
+    replace: "∵"
+  - trigger: ":since"
+    replace: "∵"
+
+  # Beta
+  - trigger: ":beta"
+    replace: "β"
+
+  # Bigheart
+  - trigger: ":bigheart"
+    replace: "❤"
+
+  - trigger: ":smallheart"
+    replace: "♡"
+
+    
+  # Blackeye
+  - trigger: ":blackeye"
+    replace: "0__#"
+
+  # Blubby
+  - trigger: ":blubby"
+    replace: "(      0    _   0    )"
+
+  # Boobs
+  - trigger: ":boobs"
+    replace: "( . Y . )"
+
+  # Bored
+  - trigger: ":bored"
+    replace: "(-_-)"
+
+  # Bribe
+  - trigger: ":bribe"
+    replace: "( •͡˘ _•͡˘)ノð"
+
+  # Bubbles
+  - trigger: ":bubbles"
+    replace: "( ˘ ³˘)ノ°ﾟº❍｡"
+
+  # Butterfly
+  - trigger: ":butterfly"
+    replace: "ƸӜƷ"
+
+  # Cat
+  - trigger: ":cat"
+    replace: "(= ФェФ=)"
+
+  # Catlenny
+  - trigger: ":catlenny"
+    replace: "( ͡° ᴥ ͡°)﻿"
+
+  # Checkmark/Check
+  - trigger: ":checkmark"
+    replace: "✔"
+  - trigger: ":check"
+    replace: "✔"
+
+  # Cheer
+  - trigger: ":cheer1"
+    replace: "※\\(^o^)/※"
+  - trigger: ":cheer2"
+    replace: "◝(ᵔᗜᵔ)◜"
+
+  # Chubby
+  - trigger: ":chubby"
+    replace: "╭(ʘ̆~◞౪◟~ʘ̆)╮"
+
+  # Claro
+  - trigger: ":claro"
+    replace: "(͡ ° ͜ʖ ͡ °)"
+
+  # Clique/Gang/Squad
+  - trigger: ":clique"
+    replace: "ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ"
+  - trigger: ":gang"
+    replace: "ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ"
+  - trigger: ":squad"
+    replace: "ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ"
+
+  # Cloud
+  - trigger: ":cloud"
+    replace: "☁"
+
+  # Club
+  - trigger: ":club"
+    replace: "♣"
+
+  # Coffee/Cuppa
+  - trigger: ":coffee"
+    replace: "c[_]"
+  - trigger: ":cuppa"
+    replace: "c[_]"
+
+  # Command/Cmd
+  - trigger: ":command"
+    replace: "⌘"
+  - trigger: ":cmd"
+    replace: "⌘"
+
+  # Cool/CSI
+  - trigger: ":cool"
+    replace: "(•_•) ( •_•)>⌐■-■ (⌐■_■)"
+  - trigger: ":csi"
+    replace: "(•_•) ( •_•)>⌐■-■ (⌐■_■)"
+
+  # Copyright/Copy/C
+  - trigger: ":copyright"
+    replace: "©"
+  - trigger: ":copy"
+    replace: "©"
+
+  # Creep
+  - trigger: ":creep"
+    replace: "ԅ(≖‿≖ԅ)"
+
+  # Creepcute
+  - trigger: ":creepcute"
+    replace: "ƪ(ړײ)‎ƪ​​"
+
+  # Crim3s
+  - trigger: ":crim3s"
+    replace: "( ✜︵✜ )"
+
+  # Cross
+  - trigger: ":cross"
+    replace: "†"
+
+  # Cry
+  - trigger: ":cry"
+    replace: "(╥﹏╥)"
+
+  # Crywave
+  - trigger: ":crywave"
+    replace: "( ╥﹏╥) ノシ"
+  - trigger: ":wave"
+    replace: "ヾ(•＾▽＾•)"
+
+  # Cute
+  - trigger: ":cute"
+    replace: "(｡◕‿‿◕｡)"
+
+  # Dice (D1-D6)
+  - trigger: ":1d"
+    replace: "⚀"
+  - trigger: ":2d"
+    replace: "⚁"
+  - trigger: ":3d"
+    replace: "⚂"
+  - trigger: ":4d"
+    replace: "⚃"
+  - trigger: ":5d"
+    replace: "⚄"
+  - trigger: ":6d"
+    replace: "⚅"
+
+  # Dab
+  - trigger: ":dab"
+    replace: "ヽ( •_)ᕗ"
+
+  # Damnyou
+  - trigger: ":damnyou"
+    replace: "(ᕗ ͠° ਊ ͠° )ᕗ"
+
+  # Dance
+  - trigger: ":dance"
+    replace: "ᕕ(⌐■_■)ᕗ ♪♬"
+
+  # Dead
+  - trigger: ":dead"
+    replace: "x⸑x"
+
+  # Dealwithit/DWI
+  - trigger: ":dealwithit"
+    replace: "(⌐■_■)"
+  - trigger: ":dwi"
+    replace: "(⌐■_■)"
+
+  # Delta
+  - trigger: ":delta"
+    replace: "Δ"
+
+  # Depressed
+  - trigger: ":depressed"
+    replace: "(︶︹︶)"
+
+  # Derp
+  - trigger: ":derp"
+    replace: "☉ ‿ ⚆"
+
+  # Diamond
+  - trigger: ":diamond"
+    replace: "♦"
+
+  # DJ
+  - trigger: ":dj"
+    replace: "d[-_-]b"
+
+  # Dog
+  - trigger: ":dog"
+    replace: "(◕ᴥ◕ʋ)"
+
+  # Dollar
+  - trigger: ":dollar"
+    replace: "$"
+
+  # Dong
+  - trigger: ":dong"
+    replace: "(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄"
+
+  # Donger
+  - trigger: ":donger"
+    replace: "ヽ༼ຈل͜ຈ༽ﾉ"
+
+  # Dontcare/IDC
+  - trigger: ":dontcare"
+    replace: "(- ʖ̯-)"
+  - trigger: ":idc"
+    replace: "(- ʖ̯-)"
+
+  # Donotwant/Do not want/Dontwant
+  - trigger: ":donotwant"
+    replace: "ヽ(｀Д´)ﾉ"
+  - trigger: ":do not want"
+    replace: "ヽ(｀Д´)ﾉ"
+  - trigger: ":dontwant"
+    replace: "ヽ(｀Д´)ﾉ"
+
+  # Dope
+  - trigger: ":dope"
+    replace: "<(^_^)>"
+
+  # Doublequotesleft/<<
+  - trigger: ":doublequotesleft"
+    replace: "«"
+  - trigger: ":<<"
+    replace: "«"
+
+  # Doublequotesright/>>
+  - trigger: ":doublequotesright"
+    replace: "»"
+  - trigger: ":>>"
+    replace: "»"
+
+  # Doubleflat
+  - trigger: ":doubleflat"
+    replace: "𝄫"
+
+  # Doublesharp
+  - trigger: ":doublesharp"
+    replace: "𝄪"
+
+  # Doubletableflip
+  - trigger: ":doubletableflip"
+    replace: "┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻"
+
+  # Down
+  - trigger: ":down"
+    replace: "↓"
+
+  # Duckface
+  - trigger: ":duckface"
+    replace: "(・3・)"
+
+  # Duel
+  - trigger: ":duel"
+    replace: "ᕕ(╭ರ╭ ͟ʖ╮•́)⊃¤=(————-"
+
+  # Duh
+  - trigger: ":duh"
+    replace: "(≧︿≦)"
+
+  # Dunnolol/Dunno
+  - trigger: ":dunnolol"
+    replace: "¯\\(°_o)/¯"
+  - trigger: ":dunno"
+    replace: "¯\\(°_o)/¯"
+
+  # Ebola
+  - trigger: ":ebola"
+    replace: "ᴇʙᴏʟᴀ"
+
+  # Eeriemob
+  - trigger: ":eeriemob"
+    replace: "(-(-_-(-_(-_(-_-)_-)-_-)_-)_-)-)"
+
+  # Ellipsis/...
+  - trigger: ":ellipsis"
+    replace: "…"
+  - trigger: ":..."
+    replace: "…"
+
+  # Emdash/--
+  - trigger: ":emdash"
+    replace: "–"
+  - trigger: ":--"
+    replace: "–"
+
+  # Emptystar
+  - trigger: ":emptystar"
+    replace: "☆"
+
+  # Emptytriangle/T2
+  - trigger: ":emptytriangle"
+    replace: "△"
+  - trigger: ":t2"
+    replace: "△"
+
+  # Endure
+  - trigger: ":endure"
+    replace: "(҂◡_◡) ᕤ"
+
+  # Envelope/Letter
+  - trigger: ":envelope"
+    replace: "✉︎"
+  - trigger: ":letter"
+    replace: "✉︎"
+
+  # Epsilon
+  - trigger: ":epsilon"
+    replace: "ɛ"
+
+  # Euro
+  - trigger: ":euro"
+    replace: "€"
+
+  # Evil
+  - trigger: ":evil"
+    replace: "ψ(｀∇´)ψ"
+
+  # Evillenny
+  - trigger: ":evillenny"
+    replace: "(͠≖ ͜ʖ͠≖)"
+
+  # Excited
+  - trigger: ":excited"
+    replace: "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧"
+
+  # Execution
+  - trigger: ":execution"
+    replace: "(⌐■_■)︻╦╤─   (╥﹏╥)"
+
+  # Facebook
+  - trigger: ":facebook"
+    replace: "(╯°□°)╯︵ ʞooqǝɔɐɟ"
+
+  # Facepalm
+  - trigger: ":facepalm"
+    replace: "(－‸ლ)"
+
+  # Fart
+  - trigger: ":fart"
+    replace: "(ˆ⺫ˆ๑)<3"
+
+  # Fight
+  - trigger: ":fight"
+    replace: "(ง •̀_•́)ง"
+
+  # Finn
+  - trigger: ":finn"
+    replace: "| (• ◡•)|"
+
+  # Fish
+  - trigger: ":fish"
+    replace: "<\"(((<3"
+
+  # Five/5
+  - trigger: ":five"
+    replace: "卌"
+
+  # Fiveeights/5/8
+  - trigger: ":fiveeights"
+    replace: "⅝"
+  - trigger: ":5/8"
+    replace: "⅝"
+
+  # Flat/Bemolle
+  - trigger: ":flat"
+    replace: "♭"
+  - trigger: ":bemolle"
+    replace: "♭"
+
+  # Flexing
+  - trigger: ":flexing"
+    replace: "ᕙ(`▽´)ᕗ"
+
+  # Flipped/Heavytable
+  - trigger: ":flipped"
+    replace: "┬─┬﻿ ︵ /(.□. \\）"
+  - trigger: ":heavytable"
+    replace: "┬─┬﻿ ︵ /(.□. \\）"
+
+  # Flower/Flor
+  - trigger: ":flor"
+    replace: "(✿◠‿◠)"
+
+  # Flower2/F
+  - trigger: ":flower"
+    replace: "✿"
+
+  # Fly
+  - trigger: ":fly"
+    replace: "─=≡Σ((( つ◕ل͜◕)つ"
+
+  # Friendflip
+  - trigger: ":friendflip"
+    replace: "(╯°□°)╯︵ ┻━┻ ︵ ╯(°□° ╯)"
+
+  # Frown
+  - trigger: ":frown"
+    replace: "(ღ˘⌣˘ღ)"
+
+  # Fuckoff/GTFO
+  - trigger: ":fuckoff"
+    replace: "୧༼ಠ益ಠ╭∩╮༽"
+  - trigger: ":gtfo"
+    replace: "୧༼ಠ益ಠ╭∩╮༽"
+
+  # Fuckyou/FU
+  - trigger: ":fuckyou"
+    replace: "┌П┐(ಠ_ಠ)"
+  - trigger: ":fu"
+    replace: "┌П┐(ಠ_ಠ)"
+
+  # Gentleman/Sir/Monocle
+  - trigger: ":gentleman"
+    replace: "ಠ_ರೃ"
+  - trigger: ":sir"
+    replace: "ಠ_ರೃ"
+  - trigger: ":monocle"
+    replace: "ಠ_ರೃ"
+
+  # Ghast
+  - trigger: ":ghast"
+    replace: "= _ ="
+
+  # Ghost
+  - trigger: ":ghost"
+    replace: "༼ つ ╹ ╹ ༽つ"
+
+  # Gift/Present
+  - trigger: ":gift"
+    replace: "(´・ω・)っ由"
+  - trigger: ":present"
+    replace: "(´・ω・)っ由"
+
+  # Gimme
+  - trigger: ":gimme"
+    replace: "༼ つ ◕_◕ ༽つ"
+
+  # Givemeyourmoney
+  - trigger: ":givemeyourmoney"
+    replace: "(•-•)⌐"
+
+  # Glitterbomb/Glitter
+  - trigger: ":glitterbomb"
+    replace: "(*・‿・)ノ⌒*:･ﾟ✧"
+  - trigger: ":glitter"
+    replace: "(*・‿・)ノ⌒*:･ﾟ✧"
+
+  # Glasses
+  - trigger: ":glasses"
+    replace: "(⌐ ͡■ ͜ʖ ͡■)"
+
+  # Glassesoff
+  - trigger: ":glassesoff"
+    replace: "( ͡° ͜ʖ ͡°)ﾉ⌐■-■"
+
+  # Glitterderp
+  - trigger: ":glitterderp"
+    replace: "(ﾉ☉ヮ⚆)ﾉ ⌒*:･ﾟ✧"
+
+  # Gloomy
+  - trigger: ":gloomy"
+    replace: "(_゜_゜_)"
+
+  # Goatse
+  - trigger: ":goatse"
+    replace: "(з๏ε)"
+
+  # Gotit
+  - trigger: ":gotit"
+    replace: "(☞ﾟ∀ﾟ)☞"
+
+  # Greet/Greetings
+  - trigger: ":greet"
+    replace: "( ´◔ ω◔`) ノシ"
+  - trigger: ":greetings"
+    replace: "( ´◔ ω◔`) ノシ"
+
+  # Gun/MG
+  - trigger: ":gun"
+    replace: "︻╦╤─"
+  - trigger: ":mg"
+    replace: "︻╦╤─"
+
+  # Hadouken
+  - trigger: ":hadouken"
+    replace: "༼つಠ益ಠ༽つ ─=≡ΣO))"
+
+  # Hammerandsickle/HS
+  - trigger: ":hammerandsickle"
+    replace: "☭"
+  - trigger: ":hs"
+    replace: "☭"
+
+  # Handleft/HL
+  - trigger: ":handleft"
+    replace: "☜"
+  - trigger: ":hl"
+    replace: "☜"
+
+  # Handright/HR
+  - trigger: ":handright"
+    replace: "☞"
+  - trigger: ":hr"
+    replace: "☞"
+
+  # Haha
+  - trigger: ":haha"
+    replace: "٩(^‿^)۶"
+
+  # Happy
+  - trigger: ":happy"
+    replace: "(✿˘◡˘)✧"
+
+  # Happygarry
+  - trigger: ":happygarry"
+    replace: "ᕕ( ᐛ )ᕗ"
+
+  # Heart/H
+  - trigger: ":heart"
+    replace: "♥"
+
+  # Hello/Ohai/Bye
+  - trigger: ":hello"
+    replace: "(˶ᵔ ᵕ ᵔ˶)"
+  - trigger: ":hi"
+    replace: "⸜(｡˃ ᵕ ˂ )⸝♡"
+
+  # Help
+  - trigger: ":help"
+    replace: "\\(°Ω°)/"
+
+  # Highfive
+  - trigger: ":highfive"
+    replace: "._.)/\\(._."
+
+  # Hitting
+  - trigger: ":hitting"
+    replace: "( ｀皿´)｡ﾐ/"
+
+  # Hugs/Hug
+  - trigger: ":hugs"
+    replace: "(づ｡◕‿‿◕｡)づ"
+  - trigger: ":hug"
+    replace: "(づ｡◕‿‿◕｡)づ"
+
+  # Iknowright/IKR
+  - trigger: ":iknowright"
+    replace: "┐｜･ิω･ิ#｜┌"
+  - trigger: ":ikr"
+    replace: "┐｜･ิω･ิ#｜┌"
+
+  # Illuminati
+  - trigger: ":illuminati"
+    replace: "୧(▲ᴗ▲)ノ"
+
+  # Infinity/Inf
+  - trigger: ":infinity"
+    replace: "∞"
+  - trigger: ":inf"
+    replace: "∞"
+
+  # Inlove
+  - trigger: ":inlove"
+    replace: "(っ´ω`c)♡"
+
+  # Integral/Int
+  - trigger: ":integral"
+    replace: "∫"
+  - trigger: ":int"
+    replace: "∫"
+
+  # Internet
+  - trigger: ":internet"
+    replace: "ଘ(੭*ˊᵕˋ)੭* ̀ˋ ɪɴᴛᴇʀɴᴇᴛ"
+
+  # Interrobang
+  - trigger: ":interrobang"
+    replace: "‽"
+
+  # Jake
+  - trigger: ":jake"
+    replace: "(❍ᴥ❍ʋ)"
+
+  # Kappa
+  - trigger: ":kappa"
+    replace: "(¬,‿,¬)"
+
+  # Kawaii
+  - trigger: ":kawaii"
+    replace: "≧◡≦"
+
+  # Keen
+  - trigger: ":keen"
+    replace: "┬┴┬┴┤Ɵ͆ل͜Ɵ͆ ༽ﾉ"
+
+  # Kiahh
+  - trigger: ":kiahh"
+    replace: "~\\(≧▽≦)/~"
+
+  # Kiss
+  - trigger: ":kiss"
+    replace: "(づ ￣ ³￣)づ"
+
+  # Kyubey
+  - trigger: ":kyubey"
+    replace: "／人◕ ‿‿ ◕人＼"
+
+  # Lambda
+  - trigger: ":lambda"
+    replace: "λ"
+
+  # Lazy
+  - trigger: ":lazy"
+    replace: "_(:3」∠)_"
+
+  # Left/<-
+  - trigger: ":left"
+    replace: "←"
+  - trigger: ":<-"
+    replace: "←"
+
+  # Lenny
+  - trigger: ":lenny"
+    replace: "( ͡° ͜ʖ ͡°)"
+
+  # Lennybill
+  - trigger: ":lennybill"
+    replace: "[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]"
+
+  # Lennyfight
+  - trigger: ":lennyfight"
+    replace: "(ง ͠° ͟ʖ ͡°)ง"
+
+  # Lennyflip
+  - trigger: ":lennyflip"
+    replace: "(ノ ͡° ͜ʖ ͡°ノ)   ︵ ( ͜。 ͡ʖ ͜。)"
+
+  # Lennygang
+  - trigger: ":lennygang"
+    replace: "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)"
+
+  # Lennyshrug
+  - trigger: ":lennyshrug"
+    replace: "¯\\_( ͡° ͜ʖ ͡°)_/¯"
+
+  # Lennysir
+  - trigger: ":lennysir"
+    replace: "( ಠ ͜ʖ ರೃ)"
+
+  # Lennystalker
+  - trigger: ":lennystalker"
+    replace: "┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴"
+
+  # Lennystrong
+  - trigger: ":lennystrong"
+    replace: "ᕦ( ͡° ͜ʖ ͡°)ᕤ"
+
+  # Lennywizard
+  - trigger: ":lennywizard"
+    replace: "╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ"
+
+  # LOL
+  - trigger: ":lol"
+    replace: "L(° O °L)"
+
+  # Look
+  - trigger: ":look"
+    replace: "(ಡ_ಡ)☞"
+
+  # Loud/Noise
+  - trigger: ":loud"
+    replace: "ᕦ(⩾﹏⩽)ᕥ"
+  - trigger: ":noise"
+    replace: "ᕦ(⩾﹏⩽)ᕥ"
+
+  # Love
+  - trigger: ":love1"
+    replace: "⸜(｡˃ ᵕ ˂ )⸝♡"
+
+  # Love
+  - trigger: ":love2"
+    replace: "(˶ᵔ ᵕ ᵔ˶)♡"
+
+  # Lovebear
+  - trigger: ":lovebear"
+    replace: "ʕ♥ᴥ♥ʔ"
+
+  # Lumpy
+  - trigger: ":lumpy"
+    replace: "꒰ ꒡⌓꒡꒱"
+
+  # Luv
+  - trigger: ":luv"
+    replace: "-`ღ´-"
+
+  # Magic
+  - trigger: ":magic"
+    replace: "ヽ(｀Д´)⊃━☆ﾟ. * ･ ｡ﾟ,"
+
+  # Magicflip
+  - trigger: ":magicflip"
+    replace: "(/¯◡ ‿ ◡)/¯ ~ ┻━┻"
+
+  # Meep
+  - trigger: ":meep"
+    replace: "\\(°^°)/"
+
+  # Meh
+  - trigger: ":meh"
+    replace: "ಠ_ಠ"
+
+  # Metal/Rock
+  - trigger: ":metal"
+    replace: "\\m/"
+  - trigger: ":rock"
+    replace: "\\m/"
+
+  # Mistyeyes
+  - trigger: ":mistyeyes"
+    replace: "ಡ_ಡ"
+
+  # Monster
+  - trigger: ":monster"
+    replace: "༼ ༎ຶ ෴ ༎ຶ༽"
+
+  # Natural
+  - trigger: ":natural"
+    replace: "♮"
+
+  # Needle/Inject
+  - trigger: ":needle"
+    replace: "┌(◉ ͜ʖ◉)つ┣▇▇▇═──"
+  - trigger: ":inject"
+    replace: "┌(◉ ͜ʖ◉)つ┣▇▇▇═──"
+
+  # Nerd
+  - trigger: ":nerd"
+    replace: "(⌐⊙_⊙)"
+
+  # Nice
+  - trigger: ":nice"
+    replace: "( ͡° ͜ °)"
+
+  # No
+  - trigger: ":no"
+    replace: "→_←"
+
+  # Noclue
+  - trigger: ":noclue"
+    replace: "／人◕ __ ◕人＼"
+
+  # Nom/Yummy/Delicious
+  - trigger: ":nom"
+    replace: "(っˆڡˆς)"
+  - trigger: ":yummy"
+    replace: "(っˆڡˆς)"
+  - trigger: ":delicious"
+    replace: "(っˆڡˆς)"
+
+  # Note/Sing
+  - trigger: ":note"
+    replace: "♫"
+  - trigger: ":sing"
+    replace: "♫"
+
+  # Nuclear/Radioactive/Nukular
+  - trigger: ":nuclear"
+    replace: "☢"
+  - trigger: ":radioactive"
+    replace: "☢"
+  - trigger: ":nukular"
+    replace: "☢"
+
+  # Nyan
+  - trigger: ":nyan"
+    replace: "~=[,,_,,]:3"
+
+  # Nyeh
+  - trigger: ":nyeh"
+    replace: "@^@"
+
+  # Ohshit
+  - trigger: ":ohshit"
+    replace: "( º﹃º )"
+
+  # Omega
+  - trigger: ":omega"
+    replace: "Ω"
+
+  # OMG
+  - trigger: ":omg"
+    replace: "◕_◕"
+
+  # Oneeighth/1/8
+  - trigger: ":oneeighth"
+    replace: "⅛"
+  - trigger: ":1/8"
+    replace: "⅛"
+
+  # Onefourth/1/4
+  - trigger: ":onefourth"
+    replace: "¼"
+  - trigger: ":1/4"
+    replace: "¼"
+
+  # Onehalf/1/2
+  - trigger: ":onehalf"
+    replace: "½"
+  - trigger: ":1/2"
+    replace: "½"
+
+  # Onethird/1/3
+  - trigger: ":onethird"
+    replace: "⅓"
+  - trigger: ":1/3"
+    replace: "⅓"
+
+  # Option/Opt
+  - trigger: ":option"
+    replace: "⌥"
+  - trigger: ":opt"
+    replace: "⌥"
+
+  # Ohreally/ORLY
+  - trigger: ":ohreally"
+    replace: "(눈_눈)"
+  - trigger: ":orly"
+    replace: "(눈_눈)"
+
+  # Ohyou/OU
+  - trigger: ":ohyou"
+    replace: "(◞థ౪థ)ᴖ"
+  - trigger: ":ou"
+    replace: "(◞థ౪థ)ᴖ"
+
+  # Peace/Victory
+  - trigger: ":peace"
+    replace: "✌(-‿-)✌"
+  - trigger: ":victory"
+    replace: "✌(-‿-)✌"
+
+  # Pear
+  - trigger: ":pear"
+    replace: "(__>-"
+
+  # Pi
+  - trigger: ":pi"
+    replace: "π"
+
+  # Pingpong
+  - trigger: ":pingpong"
+    replace: "( •_•)O*¯`·.¸.·´¯`°Q(•_• )"
+
+  # Plain
+  - trigger: ":plain"
+    replace: "._."
+
+  # Pleased
+  - trigger: ":pleased"
+    replace: "(˶‾᷄ ⁻̫ ‾᷅˵)"
+
+  # Point
+  - trigger: ":point"
+    replace: "(☞ﾟヮﾟ)☞"
+
+  # Pooh
+  - trigger: ":pooh"
+    replace: "ʕ •́؈•̀)"
+
+  # Porcupine
+  - trigger: ":porcupine"
+    replace: "(•ᴥ• )́`́'́`́'́⻍"
+
+  # Pound
+  - trigger: ":pound"
+    replace: "£"
+
+  # Praise
+  - trigger: ":praise"
+    replace: "(☝ ՞ਊ ՞)☝"
+
+  # Punch
+  - trigger: ":punch"
+    replace: "O=('-'Q)"
+
+  # Rage/Mad
+  - trigger: ":rage"
+    replace: "t(ಠ益ಠt)"
+  - trigger: ":mad"
+    replace: "t(ಠ益ಠt)"
+
+  # Rageflip
+  - trigger: ":rageflip"
+    replace: "(ノಠ益ಠ)ノ彡┻━┻"
+
+  # Rainbowcat
+  - trigger: ":rainbowcat"
+    replace: "(=^･ｪ･^=))ﾉ彡☆"
+
+  # Really
+  - trigger: ":really"
+    replace: "ò_ô"
+
+  # Registered/R
+  - trigger: ":registered"
+    replace: "®"
+
+  # Riot
+  - trigger: ":riot"
+    replace: "୧༼ಠ益ಠ༽୨"
+
+  # Rolleyes
+  - trigger: ":rolleyes"
+    replace: "(◔_◔)"
+
+  # Rose
+  - trigger: ":rose"
+    replace: "✿ڿڰۣ—"
+
+  # Run
+  - trigger: ":run"
+    replace: "(╯°□°)╯"
+
+  # Sad
+  - trigger: ":sad"
+    replace: "ε(´סּ︵סּ`)з"
+
+  # Saddonger
+  - trigger: ":saddonger"
+    replace: "ヽ༼ຈʖ̯ຈ༽ﾉ"
+
+  # Sadlenny
+  - trigger: ":sadlenny"
+    replace: "( ͡° ʖ̯ ͡°)"
+
+  # Seveneigths/7/8
+  - trigger: ":seveneigths"
+    replace: "⅞"
+  - trigger: ":7/8"
+    replace: "⅞"
+
+  # Sharp/Diesis
+  - trigger: ":sharp"
+    replace: "♯"
+  - trigger: ":diesis"
+    replace: "♯"
+
+  # Shout
+  - trigger: ":shout"
+    replace: "╚(•⌂•)╝"
+
+  # Shrug
+  - trigger: ":shrug"
+    replace: "¯\\_(ツ)_/¯"
+
+  # Shy
+  - trigger: ":shy"
+    replace: "=^_^="
+
+  # Sigma/Sum
+  - trigger: ":sigma"
+    replace: "Σ"
+  - trigger: ":sum"
+    replace: "Σ"
+
+  # Skull
+  - trigger: ":skull"
+    replace: "☠"
+
+  # Smile
+  - trigger: ":smile"
+    replace: "ツ"
+
+  # Smiley
+  - trigger: ":smiley"
+    replace: "☺︎"
+
+  # Smirk
+  - trigger: ":smirk"
+    replace: "¬‿¬"
+
+  # Snowman
+  - trigger: ":snowman"
+    replace: "☃"
+
+  # Sob
+  - trigger: ":sob2"
+    replace: "(。┰ω┰。)"
+  - trigger: ":sob1"
+    replace: " (╥﹏╥)"
+
+  # Soviettableflip
+  - trigger: ":soviettableflip"
+    replace: "ノ┬─┬ノ ︵ ( \\o°o)\\"
+
+  # Spade
+  - trigger: ":spade"
+    replace: "♠"
+
+  # Squareroot/Sqrt
+  - trigger: ":squareroot"
+    replace: "√"
+  - trigger: ":sqrt"
+    replace: "√"
+
+  # Squid
+  - trigger: ":squid"
+    replace: "<コ:彡"
+
+  # Star
+  - trigger: ":star"
+    replace: "★"
+
+  # Strong
+  - trigger: ":strong"
+    replace: "ᕙ(⇀‸↼‶)ᕗ"
+
+  # Suicide
+  - trigger: ":suicide"
+    replace: "ε/̵͇̿̿/’̿’̿ ̿(◡︵◡)"
+
+  # Sum
+  - trigger: ":sum"
+    replace: "∑"
+
+  # Cuddle
+  - trigger: ":cuddle"
+    replace: "ଘ(✿˵•́ ᴗ •̀˵)"
+    
+    #Sleep
+  - trigger: ":sleep"
+    replace: "(∪｡∪)｡｡｡zzz"
+
+   #Content
+  - trigger: ":content"
+    replace: "♡( ◡‿◡ )"
+   
+  - trigger: ":we"
+    replace: "☭"
+
+   #Blush
+  - trigger: ":blush"
+    replace: "(▰˘◡˘▰)"
+
+   #sorry
+  - trigger: ":sorry"
+    replace: "(◞‸◟；)"
+   
+   #thumbsup
+  - trigger: ":thumbsup"
+    replace: "ദ്ദി( • ᴗ - ) ✧"
+
+  - trigger: ":tongue"
+    replace: "👅"
+
+  - trigger: "glhf1"
+    replace: "Good luck, have fun, Everybunny (✿˘◡˘)❤"
+    
+  - trigger: "glhf2"
+    replace: "GLHF! If we lose, it's jg diff by default ♡( ◡‿◡ )"
+    
+  - trigger: "ggwp1"
+    replace: "GG! Thanks for the carry… or at least trying ♡( ◡‿◡ )"
+    
+  - trigger: "ggwp2"
+    replace: "GGWP! That was a fun one—thanks for the game! (✿^‿^)"
+
+  - trigger: "--"
+    replace: "—"
+
+  - trigger: ":curseofra"
+    replace: "don't care. CURSE OF RA 𓀀 𓀁 𓀂 𓀃 𓀄 𓀅 𓀆 𓀇 𓀈 𓀉 𓀊 𓀋 𓀌 𓀍 𓀎 𓀏 𓀐 𓀑 𓀒 𓀓 𓀔 𓀕 𓀖 𓀗 𓀘 𓀙 𓀚 𓀛 𓀜 𓀝 𓀞 𓀟 𓀠 𓀡 𓀢 𓀣 𓀤 𓀥 𓀦 𓀧 𓀨 𓀩 𓀪 𓀫 𓀬 𓀭 𓀮 𓀯 𓀰 𓀱 𓀲 𓀳 𓀴 𓀵 𓀶 𓀷 𓀸 𓀹 𓀺 𓀻 𓀼 𓀽 𓀾 𓀿 𓁀 𓁁 𓁂 𓁃 𓁄 𓁅 𓁆 𓁇 𓁈 𓁉 𓁊 𓁋 𓁌 𓁍 𓁎 𓁏 𓁐 𓁑 𓀄 𓀅 𓀆"
+
+  - trigger: ":tomato"
+    replace: "hi g🍅🍅owww stop it🍅🍅🍅🍅🍅🍅🍅🍅sto ple🍅🍅a🍅🍅🍅🍅se🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅i just wanted t🍅o say 🍅🍅🍅🍅🍅🍅🍅🍅🍅hi🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅im sorryr🍅🍅🍅🍅🍅stopit pl🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅leasw🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅"
+  - trigger: ":mango"
+    replace: |
+      me: are u water
+      water: yes
+      me: what are u now
+      water: im still water
+      Those who know 💀
+      mango mango mango mango mango🙏😈😈😈
+
+
+  - trigger: ":bro"
+    replace: "𝓱𝓮𝓵𝓵𝓸, 𝓿𝓻𝓸 ❤️"
