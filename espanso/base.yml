@@ -1154,6 +1154,7 @@ matches:
 
   - trigger: ":tomato"
     replace: "hi g🍅🍅owww stop it🍅🍅🍅🍅🍅🍅🍅🍅sto ple🍅🍅a🍅🍅🍅🍅se🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅i just wanted t🍅o say 🍅🍅🍅🍅🍅🍅🍅🍅🍅hi🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅im sorryr🍅🍅🍅🍅🍅stopit pl🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅leasw🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅"
+    
   - trigger: ":mango"
     replace: |
       me: are u water
@@ -1166,3 +1167,13 @@ matches:
 
   - trigger: ":bro"
     replace: "𝓱𝓮𝓵𝓵𝓸, 𝓿𝓻𝓸 ❤️"
+
+  - trigger: ":Idon'tcar"
+    replace: "https://files.catbox.moe/dn3oap.jpg"
+
+  - trigger: "~~"
+    replace: "〜"
+
+  - trigger: "`~"
+    replace: "⁓"
+    
