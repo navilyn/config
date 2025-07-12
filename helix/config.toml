@@ -6,6 +6,11 @@ auto-save = true
 middle-click-paste = true
 color-modes = true
 
+[editor.lsp]
+enable=true
+auto-signature-help=true
+display-messages = true
+
 [editor.soft-wrap]
 enable = true
 
@@ -13,6 +18,11 @@ enable = true
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 1
 
 [editor.file-picker]
 hidden = false

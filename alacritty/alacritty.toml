@@ -1,0 +1,12 @@
+[font]
+size = 24
+offset = { x = 0, y = 5 } 
+bold = { family = "Comic Mono", style = "Regular" }
+
+[font.normal]
+family = "Comic mono"
+style = "Bold"
+
+[window.padding]
+x = 8
+y = 12
