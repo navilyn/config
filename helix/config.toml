@@ -37,7 +37,8 @@ mode.select = "meeeeeeeeeeeow :3"
 
 [keys.normal]
 del = ["extend_line_below", "delete_selection"]
-
+C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 [keys.insert]
 # "C-h" = ["normal_mode", "move_prev_word_start", "select_mode", "move_next_word_end", "delete_selection", "insert_mode"]
 "C-h" = ["select_mode", "move_prev_word_start", "delete_selection", "insert_mode"] # This line is purely because I use a multiplexer
